@@ -3,16 +3,14 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { IndiceComponent } from './indice/indice.component';
 import { AboutComponent } from './shared/about/about.component';
-// import { IngresosPorEconomicoComponent } from './ingresos/ingresos-por-economico/ingresos-por-economico.component';
-// import { GastosPorProgramaComponent } from './gastos/gastos-por-programa/gastos-por-programa.component';
-// import { GastosPorEconomicoComponent } from './gastos/gastos-por-economico/gastos-por-economico.component';
+import { ResumenPorTerceroComponent } from './resumen-por-tercero/resumen-por-tercero.component';
+import { DetalleComponent } from './detalle/detalle.component';
 
 const app_routes: Routes = [
     { path: 'home', component: IndiceComponent },
     { path: 'about', component: AboutComponent },
-    // { path: 'IngresosPorEconomico', component: IngresosPorEconomicoComponent },
-    // { path: 'GastosPorPrograma', component: GastosPorProgramaComponent },
-    // { path: 'GastosPorEconomico', component: GastosPorEconomicoComponent },
+    { path: 'ResumenPorTercero', component: ResumenPorTerceroComponent },
+    { path: 'Detalle', component: DetalleComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

@@ -12,9 +12,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { IndiceComponent } from './indice/indice.component';
 import { AboutComponent } from './shared/about/about.component';
-// import { GastosPorEconomicoComponent } from './gastos/gastos-por-economico/gastos-por-economico.component';
-// import { GastosPorProgramaComponent } from './gastos/gastos-por-programa/gastos-por-programa.component';
-// import { IngresosPorEconomicoComponent } from './ingresos/ingresos-por-economico/ingresos-por-economico.component';
+import { ResumenPorTerceroComponent } from './resumen-por-tercero/resumen-por-tercero.component';
+import { DetalleComponent } from './detalle/detalle.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +22,9 @@ import { AboutComponent } from './shared/about/about.component';
     FooterComponent,
     IndiceComponent,
     AboutComponent,
-    // GastosPorEconomicoComponent,
-    // GastosPorProgramaComponent,
-    // IngresosPorEconomicoComponent
-  ],
+    ResumenPorTerceroComponent,
+    DetalleComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

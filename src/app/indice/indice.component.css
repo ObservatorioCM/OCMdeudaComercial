@@ -5,6 +5,7 @@
   font-family: var(--fuente-principal);
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
+  justify-content: center;
 }
 
 .ingresos {
@@ -13,11 +14,11 @@
    margin-right: 10px;
    margin-left: 10px;
    margin-bottom: 10px;
-  display: grid;
+  /* display: grid; */
    grid-gap: 2rem;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
    grid-template-rows: 240px;
-   justify-content: center;
+   /* justify-content: center; */
  }
 
 .gastos {
