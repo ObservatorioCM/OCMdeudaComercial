@@ -12,8 +12,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { IndiceComponent } from './indice/indice.component';
 import { AboutComponent } from './shared/about/about.component';
-import { ResumenPorTerceroComponent } from './resumen-por-tercero/resumen-por-tercero.component';
 import { DetalleComponent } from './detalle/detalle.component';
+import { ResumenComponent } from './resumen/resumen.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { DetalleComponent } from './detalle/detalle.component';
     FooterComponent,
     IndiceComponent,
     AboutComponent,
-    ResumenPorTerceroComponent,
     DetalleComponent,
+    ResumenComponent,
     ],
   imports: [
     BrowserModule,
