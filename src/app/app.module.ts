@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { NgSelectModule } from '@ng-select/ng-select';
-import { FormsModule } from '@angular/forms';
+// import { FormsModule } from '@angular/forms';
 
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
@@ -28,8 +27,7 @@ import { ResumenComponent } from './resumen/resumen.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // NgSelectModule,
-    FormsModule
+    // FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

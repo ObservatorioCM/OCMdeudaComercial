@@ -13,7 +13,6 @@ const app_routes: Routes = [
     { path: 'Detalle', component: DetalleComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
-
 @NgModule({
     imports: [
         RouterModule.forRoot( app_routes, { useHash: true } )
