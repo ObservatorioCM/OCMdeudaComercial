@@ -22,6 +22,6 @@ export class ResumenComponent implements OnInit {
           hideTabs: true,
           showShareOptions: true
         };
-      viz = new tableau.Viz(containerDiv, urlViz, options);
+        viz = new tableau.Viz(containerDiv, urlViz, options);
     }
   }

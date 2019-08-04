@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { FormsModule } from '@angular/forms';
 
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
@@ -27,8 +26,7 @@ import { ResumenComponent } from './resumen/resumen.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // FormsModule
-  ],
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })

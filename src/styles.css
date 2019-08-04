@@ -36,7 +36,7 @@ body {
 
 /* Class Selector */
 .indice {
-  border: 10px, solid black;
+  /* border: 10px, solid black; */
   margin-top: 10px;
    margin-right: 10px;
    margin-left: 10px;

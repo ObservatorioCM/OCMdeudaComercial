@@ -19,9 +19,14 @@ export class DetalleComponent implements OnInit {
         options = {
           // width: "1800px",
           // height: "800px",
+          allowFullScreen: true,
           hideTabs: true,
           showShareOptions: true
         };
       viz = new tableau.Viz(containerDiv, urlViz, options);
+      launchIntoFullscreen(containerDiv); // any individual element
     }
+
   }
+
+function launchIntoFullscreen(element) {element.requestFullscreen(); }
